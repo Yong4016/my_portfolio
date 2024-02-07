@@ -229,6 +229,10 @@ button:focus {
   margin-bottom: 1rem;
 }
 
+.job__icon {
+  border-radius: 0.5rem;
+}
+
 .job__name {
   color: var(--color-primary);
 }
