@@ -197,7 +197,7 @@ button:focus {
   background-color: var(--color-primary-variant);
   padding: 2rem 1rem;
   color: var(--color-text);
-  border-radius: 1rem;
+  border-radius: 16px;
   cursor: default;
   box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.38);
 }
@@ -231,7 +231,7 @@ button:focus {
 }
 
 .job__icon {
-  border-radius: 0.5rem;
+  border-radius: 8px;
 }
 
 .job__name {
@@ -254,7 +254,7 @@ button:focus {
   display: grid;
   grid-template-columns: 6fr 4fr;
   margin: 2rem 3rem;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
@@ -364,7 +364,7 @@ button:focus {
 }
 
 .project {
-  border-radius: 0.5rem;
+  border-radius: 8px;
   overflow: hidden;
   position: relative;
 }
@@ -402,4 +402,39 @@ button:focus {
   width: 50px;
   height: 2px;
   background-color: var(--color-accent);
+}
+
+/* Testimonial */
+.testimonials {
+  margin: 3rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.testimonial__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.testimonial:nth-child(even) .testimonial__img {
+  order: 1;
+}
+
+.testimonial__bubble {
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.testimonial__bubble__name {
+  color: var(--color-accent);
+  font-weight: bold;
+  filter: brightness(70%);
 }
