@@ -13,3 +13,11 @@ const homeHeight = home.offsetHeight;
 document.addEventListener('scroll', () => {
   home.style.opacity = 1 - window.scrollY / homeHeight;
 });
+
+const arrowUp = document.querySelector('.arrow-up');
+
+document.addEventListener('scroll', () => {
+  window.scrollY > homeHeight * 0.5
+    ? (arrowUp.style.opacity = 1)
+    : (arrowUp.style.opacity = 0);
+});
