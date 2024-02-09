@@ -21,3 +21,11 @@ document.addEventListener('scroll', () => {
     ? (arrowUp.style.opacity = 1)
     : (arrowUp.style.opacity = 0);
 });
+
+const navBarMenu = document.querySelector('.header__menu');
+const toggleButton = document.querySelector('.header__toggle');
+
+toggleButton.addEventListener('click', () => {
+  navBarMenu.classList.toggle('open');
+});
+
