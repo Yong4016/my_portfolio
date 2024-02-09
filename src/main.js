@@ -29,3 +29,8 @@ toggleButton.addEventListener('click', () => {
   navBarMenu.classList.toggle('open');
 });
 
+// upon clicking an item in menu / menu closes
+
+navBarMenu.addEventListener('click', () => {
+  navBarMenu.classList.remove('open');
+});
