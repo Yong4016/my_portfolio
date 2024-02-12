@@ -169,7 +169,24 @@ button:focus {
 .home__title--bold {
   color: #702963;
   font-size: 3.5rem;
-  animation: fade-in 2.5s ease-out infinite alternate;
+  cursor: pointer;
+  animation: fade-in 1.5s ease-out infinite alternate;
+  transition: color 0.5s ease;
+}
+
+.home__title--bold:hover {
+  color: #ffa31a;
+}
+
+.home__title--bold .hover-text {
+  opacity: 0;
+  display: none;
+  transition: opacity 1.5s ease;
+}
+
+.home__title--bold:hover .hover-text {
+  opacity: 1;
+  display: inline;
 }
 
 .home__title--strong {
