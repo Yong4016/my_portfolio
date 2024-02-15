@@ -11,8 +11,15 @@
   --color-white: #ffffff;
   --color-black: #050a13;
   --color-blue: #03e8f9;
-  --color-orange: #fd6413;
+  --color-orange: #ffa31a;
   --color-gray: #1b1e26;
+
+  /* Background */
+  --home-bg-gradient: linear-gradient(
+    180deg,
+    rgba(7, 30, 73, 1) 0%,
+    rgba(5, 10, 19, 1) 100%
+  );
 
   /* Size */
   --size-max-width: 1200px;
@@ -147,6 +154,7 @@ button:focus {
 /* Home */
 #home {
   background-color: var(--color-primary);
+  background: var(--home-bg-gradient);
   color: var(--color-text);
   padding: 7rem 1rem 5rem 1rem;
   text-align: center;
@@ -200,7 +208,7 @@ button:focus {
 }
 
 .home__title--bold:hover {
-  color: #ffa31a;
+  color: var(--color-accent-variant);
 }
 
 .home__title--bold .hover-text {
