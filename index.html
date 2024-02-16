@@ -58,6 +58,9 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- TypeIt -->
+    <script src="https://unpkg.com/typeit@v8.0.1/dist/index.umd.js"></script>
+
     <!-- CSS -->
     <link
       rel="stylesheet"
@@ -77,6 +80,7 @@
       type="module" src="src/active_menu.js"
       defer
     ></script>
+    <script type="module" src="src/type.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -149,11 +153,11 @@
             src="images/profile_no_bg.png"
             alt="profile_pic"
           />
-          <h2 class="home__title">
+          <h2 class="home__title" aria-label="Hello, I', Yong">
             <b class="home__title--bold">{<span class="hover-text"> Hello, </span>};</b><br />
             
-            I'm<strong class="home__title--strong"> Web Developer, </strong>
-            Yong
+            I'm <strong class="home__title--strong">Developer</strong>
+             Yong
           </h2>
           <p class="home__description">
             A passionate software engineer based on the Gold Coast, Australia

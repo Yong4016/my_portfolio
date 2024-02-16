@@ -8,11 +8,12 @@
   --color-text: var(--color-white);
 
   /* Colors */
-  --color-white: #ffffff;
+  --color-white: #feffff;
   --color-black: #050a13;
   --color-blue: #03e8f9;
   --color-orange: #ffa31a;
   --color-gray: #1b1e26;
+  --color-purple: #B284BE;
 
   /* Background */
   --home-bg-gradient: linear-gradient(
@@ -200,7 +201,7 @@ button:focus {
 }
 
 .home__title--bold {
-  color: #702963;
+  color: var(--color-purple);
   font-size: 3.5rem;
   cursor: pointer;
   animation: fade-in 1.5s ease-out infinite alternate;
