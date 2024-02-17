@@ -633,6 +633,13 @@ button:focus {
   #home {
     padding-bottom: 3rem;
   }
+  .home__img {
+    top: -20px;
+  }
+
+  .home__container {
+    flex-direction: column;
+  }
 
   .home__title {
     font-size: 2.5rem;
