@@ -13,7 +13,7 @@
   --color-blue: #03e8f9;
   --color-orange: #ffa31a;
   --color-gray: #1b1e26;
-  --color-purple: #B284BE;
+  --color-purple: #b284be;
 
   /* Background */
   --home-bg-gradient: linear-gradient(
@@ -21,6 +21,8 @@
     rgba(7, 30, 73, 1) 0%,
     rgba(5, 10, 19, 1) 100%
   );
+
+  --home-img-svg: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="%23ffa31a"><path d="M1912 1209c27-319-72-699-318-882-187-139-462-224-785-204S85 468 84 880c0 455 481 345 636 484s139 514 477 516c386 3 693-420 715-671Z"></path></svg>');
 
   /* Size */
   --size-max-width: 1200px;
@@ -160,6 +162,7 @@ button:focus {
   padding: 7rem 1rem 5rem 1rem;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 #home::after {
@@ -177,12 +180,20 @@ button:focus {
   mask: var(--divider-single--wave);
 }
 
+.home__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
 .home__img {
-  width: 250px;
-  height: 250px;
+  background: var(--home-img-svg);
+  position: relative;
+  bottom: -70px;
+  width: 400px;
+  height: 500px;
   object-fit: cover;
-  border-radius: 100%;
-  border: 3px solid var(--color-accent);
 }
 
 .home__title {
@@ -204,7 +215,7 @@ button:focus {
   color: var(--color-purple);
   font-size: 3.5rem;
   cursor: pointer;
-  animation: fade-in 1.5s ease-out infinite alternate;
+  animation: fade-in 0.5s ease-out infinite alternate;
   transition: color 0.5s ease;
 }
 

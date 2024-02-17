@@ -2,24 +2,24 @@
 
 new TypeIt('.home__title--strong', {
   loop: true,
-  speed: 80,
+  speed: 85,
 })
   .move(-9)
   .type('Web ')
-  .pause(850)
+  .pause(750)
   .delete(4)
   .type('Front-end ')
-  .pause(850)
+  .pause(750)
   .delete(10)
   .type('React ')
-  .pause(850)
+  .pause(750)
   .delete(6)
   .move(null, { to: 'END' })
   .delete()
   .type('New Graduate')
-  .pause(850)
+  .pause(750)
   .delete()
   .move(null, { to: 'END' })
   .type('Just')
-  .pause(300)
+  .pause(200)
   .go();
