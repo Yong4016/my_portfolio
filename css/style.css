@@ -16,11 +16,7 @@
   --color-purple: #b284be;
 
   /* Background */
-  --home-bg-gradient: linear-gradient(
-    180deg,
-    rgba(7, 30, 73, 1) 0%,
-    rgba(5, 10, 19, 1) 100%
-  );
+  --home-bg-gradient: linear-gradient(180deg, rgba(7, 30, 73, 1) 0%, rgba(5, 10, 19, 1) 100%);
 
   --home-img-svg: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 2000" fill="%23ffa31a"><path d="M1912 1209c27-319-72-699-318-882-187-139-462-224-785-204S85 468 84 880c0 455 481 345 636 484s139 514 477 516c386 3 693-420 715-671Z"></path></svg>');
 
@@ -348,10 +344,8 @@ button:focus {
   margin: 2rem 3rem;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-    0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
 .skills__coding {
@@ -501,6 +495,19 @@ button:focus {
   background-color: var(--color-accent);
 }
 
+.project__desc {
+  margin: 0rem 0.5rem 0.7rem 0.5rem;
+}
+
+.project__link {
+  margin-top: 0.3rem;
+  transition: color 250ms ease-in;
+}
+
+.project__link:hover {
+  color: var(--color-accent);
+}
+
 /* Testimonial */
 .testimonials {
   margin: 3rem;
@@ -525,9 +532,13 @@ button:focus {
 }
 
 .testimonial__bubble {
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.testimonial__bubble__separator {
+  margin-bottom: 8px;
 }
 
 .testimonial__bubble__name {

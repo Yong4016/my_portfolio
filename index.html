@@ -1,566 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
 
-    <!-- SEO -->
-    <title>Yong&apos;s Portfolio</title>
-    <meta
-      name="description"
-      content="Yong's Portfolio: Developing digital
-    dreams."
-    />
-    <meta
-      name="author"
-      content="Yong"
-    />
-    <link
-      rel="shortcut icon"
-      href="images/favicon.ico"
-      type="image/x-icon"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Open Graph Data -->
-    <meta
-      property="og:title"
-      content="Yong's Portfolio: Developing digital dreams"
-    />
-    <meta
-      property="og:type"
-      content="website"
-    />
-    <meta property="og:url" content="https://yong4016.github.io/my_portfolio/" />
-    <meta property="og:image" content="https://yong4016.github.io/my_portfolio/images/og.webp" />
+  <!-- SEO -->
+  <title>Yong&apos;s Portfolio</title>
+  <meta name="description" content="Yong's Portfolio: Developing digital
+    dreams." />
+  <meta name="author" content="Yong" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
-    <!-- Google Font -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Open Graph Data -->
+  <meta property="og:title" content="Yong's Portfolio: Developing digital dreams" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yong4016.github.io/my_portfolio/" />
+  <meta property="og:image" content="https://yong4016.github.io/my_portfolio/images/og.webp" />
 
-    <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/e5587d2f9a.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
-    <!-- TypeIt -->
-    <script src="https://unpkg.com/typeit@v8.0.1/dist/index.umd.js"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e5587d2f9a.js" crossorigin="anonymous"></script>
 
-    <!-- CSS -->
-    <link
-      rel="stylesheet"
-      href="css/style.css"
-    />
+  <!-- TypeIt -->
+  <script src="https://unpkg.com/typeit@v8.0.1/dist/index.umd.js"></script>
 
-    <!-- JavaScript -->
-    <script
-      type="module" src="src/main.js"
-      defer
-    ></script>
-    <script
-      type="module" src="src/projects.js"
-      defer
-    ></script>
-    <script
-      type="module" src="src/active_menu.js"
-      defer
-    ></script>
-    <script type="module" src="src/type.js" defer></script>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header">
-      <div class="header__logo">
-        <img
-          class="header__logo__img"
-          src="images/favicon.ico"
-          alt="Yong"
-        />
-        <h class="header__logo__title"><a href="#">Yong</a></h>
-      </div>
-      <nav class="header__nav">
-        <ul class="header__menu">
-          <li>
-            <a
-              class="header__menu__item active"
-              href="#home"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="header__menu__item"
-              href="#about"
-              >About</a
-            >
-          </li>
-          <li>
-            <a
-              class="header__menu__item"
-              href="#skills"
-              >Skills</a
-            >
-          </li>
-          <li>
-            <a
-              class="header__menu__item"
-              href="#work"
-              >My Work</a
-            >
-          </li>
-          <li>
-            <a
-              class="header__menu__item"
-              href="#testimonial"
-              >Testimonials</a
-            >
-          </li>
-          <li>
-            <a
-              class="header__menu__item"
-              href="#contact"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <button class="header__toggle" aria-label="navigation menu toggle">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-    </header>
-    <!-- Main -->
-    <main>
-      <!-- Home -->
-      <section id="home">
-        <div class="max-container home__container">
-          <img
-            class="home__img"
-            src="images/profile_no_bg.png"
-            alt="profile_pic"
-          />
-          <div>
-            <h2 class="home__title" aria-label="Hello, I'm developer Yong">
-              <b class="home__title--bold">{<span class="hover-text"> Hello, </span>};</b><br />
-              
-              I'm <strong class="home__title--strong">Developer</strong>
-               Yong
-            </h2>
-            <p class="home__description">
-              A passionate software engineer based on the Gold Coast, Australia
-            </p>
-            <a
-              class="home__button"
-              href="#contact"
-              >Contact Me</a
-            >
-          </div>
-        </div>
-      </section>
-      <!-- About -->
-      <section
-        id="about"
-        class="section max-container"
-      >
-        <h2 class="title">About me</h2>
-        <p style="padding: 10px">
-          A fresh graduate with a Master's degree in Information Technology,
-          specialising in software development, from Griffith University in
-          2023. I am passionate about tackling new challenges and continuously
-          expanding my knowledge in this ever-evolving field. I am eager to
-          apply the knowledge and skills acquired during my studies to
-          contribute to the creation of innovative software solutions in the
-          future.
-        </p>
-        <ul class="majors">
-          <li class="major">
-            <i class="fa-brands fa-html5 major__icon"></i>
-            <p class="major__title">Front-end</p>
-            <p>HTML, CSS, JavaScript, TypeScript, React, Web APIs</p>
-          </li>
-          <li class="major">
-            <i class="fa-solid fa-server major__icon"></i>
-            <p class="major__title">Back-end</p>
-            <p>Java, JavaScript, SQL, NodeJs, Rest APIs, GraphQL</p>
-          </li>
-          <li class="major">
-            <i class="fa-solid fa-code major__icon"></i>
-            <p class="major__title">Other</p>
-            <p>Responsive Design, Version Control/Git, Testing/Debugging</p>
-          </li>
-        </ul>
-        <ul class="jobs">
-          <li class="job">
-            <img
-              class="job__icon"
-              src="images/Cinefly.png"
-              alt="internship"
-            />
-            <div>
-              <p class="job__name">Software Developer Intern</p>
-              <p class="job__period">July 2023 - October 2023</p>
-            </div>
-          </li>
-          <li class="job">
-            <img
-              class="job__icon"
-              src="images/Griffith.png"
-              alt="university"
-            />
-            <div>
-              <p class="job__name">Master of Information Technology</p>
-              <p class="job__period">2021 - 2023</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <!-- Skills -->
-      <section
-        id="skills"
-        class="section"
-      >
-        <div class="max-container">
-          <h2 class="title">My Skills</h2>
-          <p class="desc">Skills & Attributes</p>
-          <p style="padding: 10px">
-            Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of working within a team environment and independently. Ability to plan and time schedule, work under strict time pressure and adapt quickly when needed.
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- JavaScript -->
+  <script type="module" src="src/main.js" defer></script>
+  <script type="module" src="src/projects.js" defer></script>
+  <script type="module" src="src/active_menu.js" defer></script>
+  <script type="module" src="src/type.js" defer></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header__logo">
+      <img class="header__logo__img" src="images/favicon.ico" alt="Yong" />
+      <h class="header__logo__title"><a href="#">Yong</a></h>
+    </div>
+    <nav class="header__nav">
+      <ul class="header__menu">
+        <li>
+          <a class="header__menu__item active" href="#home">Home</a>
+        </li>
+        <li>
+          <a class="header__menu__item" href="#about">About</a>
+        </li>
+        <li>
+          <a class="header__menu__item" href="#skills">Skills</a>
+        </li>
+        <li>
+          <a class="header__menu__item" href="#work">My Work</a>
+        </li>
+        <li>
+          <a class="header__menu__item" href="#testimonial">Testimonials</a>
+        </li>
+        <li>
+          <a class="header__menu__item" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header__toggle" aria-label="navigation menu toggle">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Home -->
+    <section id="home">
+      <div class="max-container home__container">
+        <img class="home__img" src="images/profile_no_bg.png" alt="profile_pic" />
+        <div>
+          <h2 class="home__title" aria-label="Hello, I'm developer Yong">
+            <b class="home__title--bold">{<span class="hover-text"> Hello, </span>};</b><br />
+
+            I'm <strong class="home__title--strong">Developer</strong>
+            Yong
+          </h2>
+          <p class="home__description">
+            A passionate software engineer based on the Gold Coast, Australia
           </p>
-          <div class="skills-container">
-            <section class="skills__coding">
-              <h3 class="skills__title">Coding Skills</h3>
-              <ul>
-                <li class="bar">
-                  <div class="bar__metadata"><span>HTML</span><span>98%</span></div>
-                  <div class="bar__bg"><div class="bar__value" width: 98%"></div></div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata"><span>CSS</span><span>90%</span></div>
-                  <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata"><span>JavaScript</span><span>90%</span></div>
-                  <div class="bar__bg"><div class="bar__value" style="width: 90%"></div></div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata"><span>TypeScript</span><span>80%</span></div>
-                  <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata"><span>React/Redux</span><span>80%</span></div>
-                  <div class="bar__bg"><div class="bar__value" style="width: 80%"></div></div>
-                </li>
-                <li class="bar">
-                  <div class="bar__metadata"><span>NodeJs</span><span>65%</span></div>
-                  <div class="bar__bg"><div class="bar__value" style="width: 65%"></div></div>
-                </li>
-              </ul>
-            </section>
-            <section class="skills__tools">
-              <h3 class="skills__title">Tools</h3>
-              <ul>
-                <li>VS Code</li>
-                <li>GitHub</li>
-                <li>Chrome Developer Tools</li>
-                <li>Sass</li>
-                <li>Bootstrap/Tailwind CSS</li>
-              </ul>
-            </section>
-            <section class="skills__etc">
-              <h3 class="skills__title">Etc</h3>
-              <ul>
-                <li>Scrum Master</li>
-                <li>Communication</li>
-                <li>Collaboration</li>
-                <li>Problem-solving</li>
-              </ul>
-            </section>
-          </div>
+          <a class="home__button" href="#contact">Contact Me</a>
         </div>
-        
-          
-     
-      </section>
-      <!-- Work -->
-      <section
-        id="work"
-        class="section"
-      >
-        <div class="max-container">
-          <h2 class="title">My work</h2>
-          <p class="desc">Projects</p>
-          <ul class="categories">
-            <li>
-              <button class="category category--selected" data-category= "all">All <span class="category__count">8</span></button>
-            </li>
-            <li>
-              <button class="category" data-category= "front-end">Front-end <span class="category__count">3</span></button>
-            </li>
-            <li>
-              <button class="category" data-category= "back-end">Back-end <span class="category__count">3</span></button>
-            </li>
-            <li>
-              <button class="category" data-category= "mobile">Mobile <span class="category__count">2</span></button>
-            </li>
-          </ul>
-          <ul class="projects">
-            <li class="project" data-type="front-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project1.webp"
-                  alt="project1" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #1</h3>
-                  <p>Clone Coding with HTML, CSS</p>
-                </div>
-              </a>
-            </li>
-            <li class="project" data-type="front-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project2.webp"
-                  alt="project2" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #2</h3>
-                  <p>Project description</p>
-                </div>
-              </a>
-            </li>
-            <li class="project" data-type="back-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project3.webp"
-                  alt="project3" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #3</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-            <li class="project" data-type="mobile">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project4.webp"
-                  alt="project4" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #4</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-            <li class="project" data-type="front-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project5.webp"
-                  alt="project5" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #5</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-            <li class="project" data-type="back-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project6.webp"
-                  alt="project6" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #6</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-            <li class="project" data-type="back-end">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project7.webp"
-                  alt="project7" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #7</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-            <li class="project" data-type="mobile">
-              <a
-                href="#"
-                target="_blank"
-              >
-                <img
-                  src="images/projects/project8.webp"
-                  alt="project8" class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Project #8</h3>
-                  <p>Project description</p>
-                </div></a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Testimonials -->
-      <section
-        id="testimonial"
-        class="section max-container"
-      >
-        <h2 class="title">Testimonial</h2>
-        <p class="desc">See what they say about me</p>
-        <ul class="testimonials">
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people1.webp"
-              alt="people1" class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                ipsum dolore necessitatibus tenetur accusantium porro
-                reprehenderit libero, obcaecati soluta aspernatur blanditiis
-                numquam omnis culpa, rerum inventore labore iste aut magnam?
-              </p>
-              <p>
-                <a
-                  href="https://www.linkedin.com/in/yong4016/"
-                  target="_blank"
-                  class="testimonial__bubble__name"
-                  >John Doe</a
-                >
-                / Google
-              </p>
-            </div>
-          </li>
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people2.webp"
-              alt="people2" class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                ipsum dolore necessitatibus tenetur accusantium porro
-                reprehenderit libero, obcaecati soluta aspernatur blanditiis
-                numquam omnis culpa, rerum inventore labore iste aut magnam?
-              </p>
-              <p>
-                <a
-                  href="https://www.linkedin.com/in/yong4016/"
-                  target="_blank"
-                  class="testimonial__bubble__name"
-                  >Simon Kim</a
-                >
-                / Google
-              </p>
-            </div>
-          </li>
-          <li class="testimonial">
-            <img
-              src="images/testimonials/people3.webp"
-              alt="people3" class="testimonial__img"
-            />
-            <div class="testimonial__bubble">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                ipsum dolore necessitatibus tenetur accusantium porro
-                reprehenderit libero, obcaecati soluta aspernatur blanditiis
-                numquam omnis culpa, rerum inventore labore iste aut magnam?
-              </p>
-              <p>
-                <a
-                  href="https://www.linkedin.com/in/yong4016/"
-                  target="_blank"
-                  class="testimonial__bubble__name"
-                  >Kimberly Ko</a
-                >
-                / Google
-              </p>
-            </div>
-          </li>
-        </ul>
-      </section>
-      <!-- Arrow Up -->
-      <aside>
-        <a
-          href="#"
-          title="back to top"
-          class="arrow-up"
-          ><i class="fa-solid fa-arrow-up"></i
-        ></a>
-      </aside>
-    </main>
-    <!-- Footer -->
-    <footer
-      id="contact"
-      class="section"
-    >
-      <div class="max-container">
-        <h2 class="title">Let's talk</h2>
-        <p class="desc"><a href="mailto:yongnah0108@gmail.com" class="contact__link">yongnah0108@gmail.com</a></p>
-        <p class="desc"><a href="tel:0434228577" class="contact__link">0434228577</a></p>
-        <ul class="contact__links">
-          <li>
-            <a
-              href="https://github.com/Yong4016"
-              target="_blank"
-              title="Github link"
-              class="contact__link"
-            >
-              <i class="fa-brands fa-github"></i
-            ></a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/yong4016/"
-              target="_blank"
-              title="Linkedin link"
-              class="contact__link"
-            >
-              <i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-        </ul>
-        <p>©Copyright 2024 by Yong. All rights reversed.</p>
       </div>
-    </footer>
-  </body>
+    </section>
+    <!-- About -->
+    <section id="about" class="section max-container">
+      <h2 class="title">About me</h2>
+      <p style="padding: 10px">
+        A fresh graduate with a Master's degree in Information Technology,
+        specialising in software development, from Griffith University in
+        2023. I am passionate about tackling new challenges and continuously
+        expanding my knowledge in this ever-evolving field. I am eager to
+        apply the knowledge and skills acquired during my studies to
+        contribute to the creation of innovative software solutions in the
+        future.
+      </p>
+      <ul class="majors">
+        <li class="major">
+          <i class="fa-brands fa-html5 major__icon"></i>
+          <p class="major__title">Front-end</p>
+          <p>HTML, CSS, JavaScript, TypeScript, React, Web APIs</p>
+        </li>
+        <li class="major">
+          <i class="fa-solid fa-server major__icon"></i>
+          <p class="major__title">Back-end</p>
+          <p>Java, JavaScript, SQL, NodeJs, Rest APIs, GraphQL</p>
+        </li>
+        <li class="major">
+          <i class="fa-solid fa-code major__icon"></i>
+          <p class="major__title">Other</p>
+          <p>Responsive Design, Version Control/Git, Testing/Debugging</p>
+        </li>
+      </ul>
+      <ul class="jobs">
+        <li class="job">
+          <img class="job__icon" src="images/Cinefly.png" alt="internship" />
+          <div>
+            <p class="job__name">Software Developer Intern</p>
+            <p class="job__period">July 2023 - October 2023</p>
+          </div>
+        </li>
+        <li class="job">
+          <img class="job__icon" src="images/Griffith.png" alt="university" />
+          <div>
+            <p class="job__name">Master of Information Technology</p>
+            <p class="job__period">2021 - 2023</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="max-container">
+        <h2 class="title">My Skills</h2>
+        <p class="desc">Skills & Attributes</p>
+        <p style="padding: 10px">
+          Experience with all phases of the software life-cycle. Passion for learning new technologies. Capable of
+          working within a team environment and independently. Ability to plan and time schedule, work under strict time
+          pressure and adapt quickly when needed.
+        </p>
+        <div class="skills-container">
+          <section class="skills__coding">
+            <h3 class="skills__title">Coding Skills</h3>
+            <ul>
+              <li class="bar">
+                <div class="bar__metadata"><span>HTML</span><span>98%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" width: 98%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata"><span>CSS</span><span>90%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata"><span>JavaScript</span><span>90%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata"><span>TypeScript</span><span>80%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata"><span>React / Redux / Tanstack Query / React Router/ Axios</span><span>80%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width: 80%"></div>
+                </div>
+              </li>
+              <li class="bar">
+                <div class="bar__metadata"><span>NodeJs</span><span>65%</span></div>
+                <div class="bar__bg">
+                  <div class="bar__value" style="width: 65%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="skills__tools">
+            <h3 class="skills__title">Tools</h3>
+            <ul>
+              <li>VS Code</li>
+              <li>GitHub</li>
+              <li>Chrome Developer Tools</li>
+              <li>Sass(Scss) / Styled Components / Modular CSS</li>
+              <li>Bootstrap / Tailwind CSS</li>
+            </ul>
+          </section>
+          <section class="skills__etc">
+            <h3 class="skills__title">Etc</h3>
+            <ul>
+              <li>Scrum Master</li>
+              <li>Communication</li>
+              <li>Collaboration</li>
+              <li>Problem-solving</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+    </section>
+    <!-- Work -->
+    <section id="work" class="section">
+      <div class="max-container">
+        <h2 class="title">My work</h2>
+        <p class="desc">Projects</p>
+        <ul class="categories">
+          <li>
+            <button class="category category--selected" data-category="all">All <span
+                class="category__count">4</span></button>
+          </li>
+          <li>
+            <button class="category" data-category="front-end">Front-end <span class="category__count">4</span></button>
+          </li>
+          <li>
+            <button class="category" data-category="back-end">Back-end <span class="category__count">0</span></button>
+          </li>
+          <li>
+            <button class="category" data-category="mobile">Mobile <span class="category__count">0</span></button>
+          </li>
+        </ul>
+        <ul class="projects">
+          <li class="project" data-type="front-end">
+            <img src="images/projects/project1.webp" alt="project1" class="project__img" />
+            <div class="project__metadata">
+              <h3 class="project__title">Project #1</h3>
+              <p class="project__desc">Portfolio website written in plain JavaScript, HTML, CSS.</p>
+              <a class='project__link' href="https://github.com/Yong4016/my_portfolio" target="_blank">
+                View on GitHub
+              </a>
+            </div>
+          </li>
+          <li class="project" data-type="front-end">
+            <img src="images/projects/project2.webp" alt="project2" class="project__img" />
+            <div class="project__metadata">
+              <h3 class="project__title">Project #2</h3>
+              <p class="project__desc">Weather application built with React and TypeScript using the OpenWeatherMap API.</p>
+              <a class='project__link' href="https://github.com/Yong4016/weather-app" target="_blank">
+                View on GitHub
+              </a>
+              <a class='project__link' href="https://yong-weather-app.netlify.app/" target="_blank">
+                Visit Website
+              </a>
+            </div>
+          </li>
+          <li class="project" data-type="front-end">
+            <img src="images/projects/project3.webp" alt="project3" class="project__img" />
+            <div class="project__metadata">
+              <h3 class="project__title">Project #3</h3>
+              <p class="project__desc">React application that interacts with the Youtube Data API. UI is built using Tailwind CSS.</p>
+              <a class='project__link' href="https://github.com/Yong4016/youtube-clone" target="_blank">
+                View on GitHub
+              </a>
+              <a class='project__link' href="https://yong-react-youtube-clone.netlify.app/" target="_blank">
+                Visit Website
+              </a>
+            </div>
+          </li>
+          <li class="project" data-type="front-end">
+            <img src="images/projects/project4.webp" alt="project4" class="project__img" />
+            <div class="project__metadata">
+              <h3 class="project__title">Project #4</h3>
+              <p class="project__desc">React mock e-commerce application with Firebase powered backend and Cloudinary for image uploads. Please contact for admin access.</p>
+              <a class='project__link' href="https://github.com/Yong4016/shoppy" target="_blank">
+                View on GitHub
+              </a>
+              <a class='project__link' href="https://yong-shoppy.netlify.app/" target="_blank">
+                Visit Website
+              </a>
+            </div>
+          </li>
+
+          
+          
+          
+          
+          
+        </ul>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section id="testimonial" class="section max-container">
+      <h2 class="title">Testimonial</h2>
+      <p class="desc">See what they say about me</p>
+      <ul class="testimonials">
+        <li class="testimonial">
+          <img src="images/testimonials/people1.webp" alt="people1" class="testimonial__img" />
+          <div class="testimonial__bubble">
+            <p class="testimonial__bubble__separator">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              ipsum dolore necessitatibus tenetur accusantium porro
+              reprehenderit libero, obcaecati soluta aspernatur blanditiis
+              numquam omnis culpa, rerum inventore labore iste aut magnam?
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/stuart-hoff/" target="_blank"
+                class="testimonial__bubble__name">Stuart Hoff</a>
+              / Software Engineer at XAM Consulting
+            </p>
+          </div>
+        </li>
+        <li class="testimonial">
+          <img src="images/testimonials/people2.webp" alt="people2" class="testimonial__img" />
+          <div class="testimonial__bubble">
+            <p class="testimonial__bubble__separator">
+              I had the pleasure of studying with Yong at university. He is highly dedicated, eager to learn, and quick
+              to grasp new concepts. His exceptional problem-solving abilities and positive attitude significantly
+              enhanced our group projects. I highly recommend him for any role, as he consistently demonstrates
+              excellence and teamwork.
+            </p>
+            <p>
+              <a href="https://www.linkedin.com/in/hong-yee-chan/" target="_blank"
+                class="testimonial__bubble__name">Hong Yee Chan</a>
+              / ICT Graduate Officer at Queensland Health
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <!-- Arrow Up -->
+    <aside>
+      <a href="#" title="back to top" class="arrow-up"><i class="fa-solid fa-arrow-up"></i></a>
+    </aside>
+  </main>
+  <!-- Footer -->
+  <footer id="contact" class="section">
+    <div class="max-container">
+      <h2 class="title">Let's talk</h2>
+      <p class="desc"><a href="mailto:yongnah0108@gmail.com" class="contact__link">yongnah0108@gmail.com</a></p>
+      <p class="desc"><a href="tel:0434228577" class="contact__link">0434228577</a></p>
+      <ul class="contact__links">
+        <li>
+          <a href="https://github.com/Yong4016" target="_blank" title="Github link" class="contact__link">
+            <i class="fa-brands fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/yong4016/" target="_blank" title="Linkedin link" class="contact__link">
+            <i class="fa-brands fa-linkedin"></i></a>
+        </li>
+      </ul>
+      <p>©Copyright 2024 by Yong. All rights reversed.</p>
+    </div>
+  </footer>
+</body>
+
 </html>
